@@ -2,7 +2,7 @@ import React from 'react';
 
 const Welcome = ({ name }) => {
   return (
-    <div className='welcome-section'>
+    <div className='welcome-section '>
       <p>Loop Wellness Club</p>
       <h1>
         Welcome, <span className='name'>{name}</span>

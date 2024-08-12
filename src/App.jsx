@@ -111,20 +111,21 @@ function App() {
                     imageUrl={product.imageUrl}
                   />
                 ))}
+                <OrderNotes />
+                <DiscountCode />
+                <SubscriptionPlan openSidebar={openSidebar} />
+                <ShippingAddress openSidebar={openSidebar} />
+                <PaymentDetails openSidebar={openSidebar} />
               </section>
             </main>
 
-            <OrderNotes />
-            <DiscountCode />
-            <SubscriptionPlan openSidebar={openSidebar} />
-            <ShippingAddress openSidebar={openSidebar} />
-            <PaymentDetails openSidebar={openSidebar} />
+            
             <WellnessBonus />
             <div className='subscription-actions flex flex-col gap-2 items-center'>
-              <button className='btn btn-outline max-w-xl'>
+              <button className='btn btn-outline max-w-xl  hover:bg-green-700 hover:text-white transition-colors duration-300'>
                 Pause subscription
               </button>
-              <button className='btn btn-text'>Cancel subscription</button>
+              <button className='btn btn-outline max-w-xl   hover:bg-green-700 hover:text-white transition-colors duration-300'>Cancel subscription</button>
             </div>
           </main>
           <Sidebar isOpen={sidebarOpen} onClose={closeSidebar} content={sidebarContent} />

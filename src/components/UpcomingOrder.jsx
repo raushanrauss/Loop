@@ -12,19 +12,19 @@ const UpcomingOrder = ({ date, openSidebar }) => {
       <div className='mt-4 flex justify-center gap-3 md:justify-start md:flex-row'>
         <button
           onClick={() => openSidebar('order-now')}
-          className='btn btn-primary'
+          className='btn btn-primary  hover:bg-green-700 hover:text-white transition-colors duration-300'
         >
           Order now
         </button>
         <button
           onClick={() => openSidebar('skip')}
-          className='btn btn-secondary'
+          className='btn btn-secondary  hover:bg-green-700 hover:text-white transition-colors duration-300'
         >
           Skip
         </button>
         <button
           onClick={() => openSidebar('postpone')}
-          className='btn btn-secondary'
+          className='btn btn-secondary  hover:bg-green-700 hover:text-white transition-colors duration-300'
         >
           Postpone
         </button>

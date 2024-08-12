@@ -71,6 +71,18 @@ function App() {
         price: '$40.00',
         imageUrl: 'https://cdn.shopify.com/s/files/1/0654/7079/1899/files/image_58227018-eead-4b7b-af36-ba44b65d4a82.png?v=1691393869'
       },
+      {
+        title: 'Yoga Membership',
+        description: 'Subscription discount (45%).',
+        price: '$55.00',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0654/7079/1899/products/32.png?v=1707334671'
+      },
+      {
+        title: 'Auto-ship Subscription',
+        description: 'Description of product 2.',
+        price: '$34.00',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0654/7079/1899/products/9.png?v=1707334714'
+      },
       // Add more products as needed
     ];
 
